@@ -1,0 +1,49 @@
+
+
+body {
+    font-family:Verdana, Arial, sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1 {
+    font-size: 200%;
+}
+h2 {
+    font-size: 120%;
+}
+img {
+    float: left;
+    padding-right: 2em;
+}
+
+header h1 {
+    color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+}
+
+main h2:first-child::first-letter {
+    font-size: 300%;
+}
+
+a {
+    color: orange;
+    font-weight: bold;
+}
+
+a:hover, a:focus {
+    color: green;
+}
+
+li {
+    height: 22px;
+}
+footer {
+    text-align: center;
+    font-size: 80%;
+}
+p {
+    font-size: 95%;
+}
