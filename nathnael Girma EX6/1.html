@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		ul {
+			list-style-type: none;
+		}
+		li {
+			float: left;
+		}
+		li ul li {
+			float: none;
+			display: none;
+		}
+		ul li:hover > ul {
+			color: red;
+			display: block;
+		}
+		li {
+			padding: 1em 0;
+			width: 160px;
+		}
+		nav ul {
+			position: absolute;
+		}
+		nav ul ul {
+			position: absolute;
+			top: 100%;
+		}
+	</style>
+</head>
+<body>
+	<ul> <li>here</li>
+	<li>there</li>
+	<li>none
+	<ul>
+		<li>am</li>
+		<li>are</li>
+	</ul></li>
+	</ul>
+</body>
+</html>
